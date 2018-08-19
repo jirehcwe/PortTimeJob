@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 3f15a6c58817d4419a30e56e574ce932
+timeCreated: 1505635031
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: jelly fish_0
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jelly fish_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 20
+        width: 108
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.295647, y: 90.8353}
+        - {x: -29.44941, y: 80.44937}
+        - {x: -34.586372, y: 62.681458}
+        - {x: -43.6989, y: 53.233505}
+        - {x: -42.110794, y: 45.109573}
+        - {x: -31.683365, y: 43.821}
+        - {x: -35.17946, y: 34.43846}
+        - {x: -47.368843, y: 25.779984}
+        - {x: -52.67705, y: 15.86615}
+        - {x: -44.343292, y: 6.3673096}
+        - {x: -30.472443, y: 11.483994}
+        - {x: -30.624405, y: 0.7446518}
+        - {x: -34.853416, y: -10.650444}
+        - {x: -24.681458, y: -33.362915}
+        - {x: -21.879822, y: -57.49288}
+        - {x: -20.939987, y: -30.702026}
+        - {x: -28.04943, y: -18.705994}
+        - {x: -29.808807, y: -10.903961}
+        - {x: -27.439964, y: -3.4182663}
+        - {x: -25.293747, y: -15.895111}
+        - {x: -6.9730225, y: -40.14087}
+        - {x: -14.555519, y: -57.443134}
+        - {x: -22.57135, y: -71.061356}
+        - {x: -16.416313, y: -67.71391}
+        - {x: -5.1526947, y: -48.460182}
+        - {x: -11.060745, y: -70.107864}
+        - {x: -4.9134064, y: -81.78442}
+        - {x: -6.312584, y: -65.2728}
+        - {x: -0.24974823, y: -51.597214}
+        - {x: 9.525711, y: -32.12951}
+        - {x: 16.208435, y: -71.848785}
+        - {x: 17.47873, y: -90.52485}
+        - {x: 21.511887, y: -78.133125}
+        - {x: 17.849426, y: -60.81225}
+        - {x: 13.372093, y: -43.232445}
+        - {x: 15.452423, y: -27.277191}
+        - {x: 20.02806, y: -11.2361145}
+        - {x: 24.609512, y: -12.580917}
+        - {x: 26.737473, y: -6.602722}
+        - {x: 31.718307, y: -11.298264}
+        - {x: 38.98033, y: -11.509918}
+        - {x: 42.350998, y: 4.318184}
+        - {x: 39.446075, y: 26.234558}
+        - {x: 48.81137, y: 28.019302}
+        - {x: 52.101578, y: 38.202103}
+        - {x: 45.893417, y: 47.343307}
+        - {x: 45.688614, y: 63.985245}
+        - {x: 39.730606, y: 76.363174}
+        - {x: 15.965134, y: 88.83043}
+      - - {x: -5.05529, y: -8.2376175}
+        - {x: -5.839142, y: -35.752}
+        - {x: -10.593491, y: -27.035698}
+        - {x: -21.94516, y: -16.111397}
+        - {x: -22.479393, y: -5.64106}
+        - {x: -12.97068, y: -4.848671}
+        - {x: -8.612526, y: 3.8676605}
+      - - {x: -1.0847855, y: -47.637894}
+        - {x: -2.7041397, y: -40.28572}
+        - {x: -1.1617737, y: -29.973114}
+        - {x: -1.0847855, y: -10.791611}
+        - {x: 8.423935, y: -9.999222}
+        - {x: 6.4429474, y: -30.997643}
+      - - {x: 12.047035, y: -12.148857}
+        - {x: 12.162704, y: -4.5147247}
+        - {x: 17.48346, y: -9.719818}
+        - {x: 12.162704, y: -21.633682}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

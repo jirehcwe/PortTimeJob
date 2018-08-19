@@ -1,0 +1,140 @@
+fileFormatVersion: 2
+guid: 921012bfa2a8e446189b60b4117bfe13
+timeCreated: 1505051634
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mosquito_0
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mosquito_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 25
+        width: 175
+        height: 206
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.844376, y: 96.161865}
+        - {x: 46.04637, y: 102.115234}
+        - {x: 22.608086, y: 101.5706}
+        - {x: 2.794426, y: 92.31738}
+        - {x: 0.5578232, y: 68.06653}
+        - {x: 19.716484, y: 14.274979}
+        - {x: 8.383377, y: 18.053207}
+        - {x: -15.963097, y: 58.304016}
+        - {x: -35.789505, y: 69.535324}
+        - {x: -60.59344, y: 66.581345}
+        - {x: -86.2129, y: 41.86261}
+        - {x: -87.334274, y: 1.17276}
+        - {x: -73.331406, y: -18.59945}
+        - {x: -49.099308, y: -25.628036}
+        - {x: -51.461124, y: -46.367477}
+        - {x: -43.611397, y: -62.298805}
+        - {x: -14.515404, y: -62.197174}
+        - {x: -8.556747, y: -100.925064}
+        - {x: 46.400345, y: -99.48058}
+        - {x: 64.33215, y: -84.33701}
+        - {x: 75.10431, y: -74.41882}
+        - {x: 85.92374, y: -61.248184}
+        - {x: 82.76181, y: -48.81935}
+        - {x: 70.298416, y: -49.04126}
+        - {x: 79.82391, y: -41.579216}
+        - {x: 84.92537, y: -23.466782}
+        - {x: 80.54094, y: -7.4475937}
+        - {x: 65.83476, y: 1.6167297}
+        - {x: 49.93155, y: -4.3190384}
+        - {x: 71.958084, y: 60.481598}
+        - {x: 72.69832, y: 84.337006}
+      physicsShape:
+      - - {x: -87.5, y: 103}
+        - {x: -87.5, y: -103}
+        - {x: 87.5, y: -103}
+        - {x: 87.5, y: 103}
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

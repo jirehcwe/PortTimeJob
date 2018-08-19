@@ -1,0 +1,358 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1372398785560552}
+  m_IsPrefabParent: 1
+--- !u!1 &1372398785560552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4162172250069950}
+  - component: {fileID: 114556420028065084}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4162172250069950
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1372398785560552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.6707333, y: 1.0390762, z: -5.04995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114556420028065084
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1372398785560552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 542a13f8745994431bed778fa843b61b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  commonSounds:
+  - name: Score Counting
+    clip: {fileID: 8300000, guid: e465780cc5bec42a39bbd991bfaec382, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Highscore
+    clip: {fileID: 8300000, guid: 28998c69bdae74854903e6f87a079a75, type: 3}
+    volume: 1
+    pitch: 0.7
+    loop: 0
+    source: {fileID: 0}
+  - name: Star 1
+    clip: {fileID: 8300000, guid: 836741f777bb544d4a177d1dddf8018c, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Star 2
+    clip: {fileID: 8300000, guid: d0ab1577ec68f45c59e38adf0103265d, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Star 3
+    clip: {fileID: 8300000, guid: b5e78b60f9f144643812a03f77fe2e97, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Yoshi
+    clip: {fileID: 8300000, guid: 351d3d4d0e56f434ca3c84586f7c0596, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SymmetryBGM
+    clip: {fileID: 8300000, guid: 2986a22517f6c6447ad264c98d605cd5, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SaltyDitty
+    clip: {fileID: 8300000, guid: cef233895ffb6594ab6816f535ca1f04, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: click
+    clip: {fileID: 8300000, guid: 6c86a9a3fd782784c9996b03821ba933, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Stage Cleared
+    clip: {fileID: 8300000, guid: 194c677115fc3480c91678c9b9af1897, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Stage Failed
+    clip: {fileID: 8300000, guid: 54ee0b484ec5a4d4db437976620eb47f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Button Click
+    clip: {fileID: 8300000, guid: e27fc403ecd35aa469d089c5abda012a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  iconSounds: []
+  loadingScreenSounds: []
+  mainMainMenuSounds:
+  - name: MMMenu BGM
+    clip: {fileID: 8300000, guid: de13d96e25da44d21a8235cb25575d1a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  menuSounds:
+  - name: menuLevelUnlocked
+    clip: {fileID: 8300000, guid: d0ab1577ec68f45c59e38adf0103265d, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: menuBackground
+    clip: {fileID: 8300000, guid: 0ba55bad30f3649df9412c319ce5fd3e, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  serverRoomSounds:
+  - name: Server Room BGM
+    clip: {fileID: 8300000, guid: 285134409d35748ec81a2f84a6c7eb87, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: VideoMusic
+    clip: {fileID: 8300000, guid: 0fc578846a90a3446bd381de8719e1ce, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  citosOnlySounds: []
+  catchingItemsSounds:
+  - name: Catch Parcel
+    clip: {fileID: 8300000, guid: 592fd212244684e10bb14fbcf54f0b66, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Parcel Drop 1
+    clip: {fileID: 8300000, guid: 49c16363116e849eb9cf37fe9e94f48a, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Parcel Drop 2
+    clip: {fileID: 8300000, guid: a789f2b9ba5094b5bbfc3fd41978c074, type: 3}
+    volume: 1
+    pitch: 0.9
+    loop: 0
+    source: {fileID: 0}
+  - name: splat
+    clip: {fileID: 8300000, guid: cde319badc99a4d6793733ac691bed99, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Catching Items BGM
+    clip: {fileID: 8300000, guid: 7bac1f77cda1c4048b1c5df90e8c42f5, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Collect Heart
+    clip: {fileID: 8300000, guid: c8f98c1282bc4405eb83253e8b2f2f35, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  crateFishingSounds:
+  - name: Hook Moving
+    clip: {fileID: 8300000, guid: a3feda7c3d5604cf6beb5fa48aa02e3d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Bird
+    clip: {fileID: 8300000, guid: df31c0c1384c2480ca2b091292da0a0c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Balloon
+    clip: {fileID: 8300000, guid: a3c69a52e4102479b9ef92555df2bbc1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Superman
+    clip: {fileID: 8300000, guid: 7eec5ec8c256c44eb89e809735ec6ed1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Bee
+    clip: {fileID: 8300000, guid: 0f7d55817c64947c1a2e5aebbe161bc6, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Pick up container
+    clip: {fileID: 8300000, guid: a967d663264f74f9cb6298d1add7e9f7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Control Hook
+    clip: {fileID: 8300000, guid: 06af7196e1af64f658755062c89070fb, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Explosion
+    clip: {fileID: 8300000, guid: a382527dd324c2844917c0ae8129a064, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Flying
+    clip: {fileID: 8300000, guid: d4cbf84414d734a5ca76e8865ec891f3, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Crate Fishing BGM
+    clip: {fileID: 8300000, guid: 9286ed4947b4043d6b2d9723084f18a9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  sortifySounds:
+  - name: truckMoveLoop
+    clip: {fileID: 8300000, guid: ab1bdd6f7b184c34488ce18513e3115d, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: whoosh
+    clip: {fileID: 8300000, guid: c0efae6132785cc448229d49f06304b7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: sortWrong
+    clip: {fileID: 8300000, guid: 20e58b914f704864bb6e4756c411ec33, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: sortMiss
+    clip: {fileID: 8300000, guid: 53f2eae08702f0b4e874cee4d67d2aef, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: sortSuccess
+    clip: {fileID: 8300000, guid: 2d572c343832693419ceefbc093a77aa, type: 3}
+    volume: 2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BGM
+    clip: {fileID: 8300000, guid: 90504dfbf82434d46aea9c120bc323f3, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clothFlap
+    clip: {fileID: 8300000, guid: 9ca0e838536b03843a3e45bd2c781dcc, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BGM1.2
+    clip: {fileID: 8300000, guid: 1a3969fcd2382ef4bb2c81aeb75bcb34, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BGM1.5
+    clip: {fileID: 8300000, guid: eed1d1b39679e5a419dd27bfc986727c, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: introFinished
+    clip: {fileID: 8300000, guid: bb23d36c4c80f814a8396ad2f5440f87, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: waveFinished
+    clip: {fileID: 8300000, guid: f16e908a5e991fb43af09952cf8a38bc, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: carZoom
+    clip: {fileID: 8300000, guid: 0313f6847c14f0c4880792d8c6e803fe, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  symmetrySounds:
+  - name: PlaceBlock
+    clip: {fileID: 8300000, guid: 01e0962bed905fd4f9b35483f71c16ff, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: RemoveBlock
+    clip: {fileID: 8300000, guid: 9c2555a737768fc4eb48021a26fa1029, type: 3}
+    volume: 0.8
+    pitch: 0.81
+    loop: 0
+    source: {fileID: 0}
+  - name: Clear
+    clip: {fileID: 8300000, guid: d0ab1577ec68f45c59e38adf0103265d, type: 3}
+    volume: 0.3
+    pitch: 0.8
+    loop: 0
+    source: {fileID: 0}
+  - name: TimesUp
+    clip: {fileID: 8300000, guid: 372d60361d0eb7a4e9113f2c9ff7ef59, type: 3}
+    volume: 1.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
