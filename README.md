@@ -1,6 +1,6 @@
 # PortTimeJob
 
-## PortTimeJob was a entry to PSA's GameIt Game Design Competition in 2017. My team won 2nd place and a $5000 cash prize. 
+### PortTimeJob was a entry to PSA's GameIt Game Design Competition in 2017. My team won 2nd place and a $5000 cash prize. 
 
 PortTimeJob is a game revolving around PSA's operations, encompassing elements of their work in 4 different minigames, of which I worked on one of them. 
 
