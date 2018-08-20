@@ -4,8 +4,8 @@
 
 PortTimeJob is a game revolving around PSA's operations, encompassing elements of their work in 4 different minigames, of which I worked on one of them. 
 
-![trailer splash](https://github.com/jirehcwe/PortTimeJob/Assets/Game%20trailer.png)
+![trailer splash](https://github.com/jirehcwe/PortTimeJob/blob/master/Assets/Game%20trailer.png)
 
 I worked with the game in the upper middle and some of the transition scenes/loading screen for the game. 
 
-![minigame splash](https://github.com/jirehcwe/PortTimeJob/Assets/Mini%20games.png)
+![minigame splash](https://github.com/jirehcwe/PortTimeJob/blob/master/Assets/Mini%20games.png)
