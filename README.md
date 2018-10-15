@@ -6,7 +6,7 @@ PortTimeJob is a game revolving around PSA's operations, encompassing elements o
 
 ![trailer splash](https://github.com/jirehcwe/PortTimeJob/blob/master/Assets/Game%20trailer.png)
 
-I worked with the game in the upper middle and some of the transition scenes/loading screen for the game. 
+I worked with the game in the upper middle and some of the transition scenes/loading screen for the game, the mini-map navigation and zooming, the loading screen and the audio.
 
 ![minigame splash](https://github.com/jirehcwe/PortTimeJob/blob/master/Assets/Mini%20games.png)
 
